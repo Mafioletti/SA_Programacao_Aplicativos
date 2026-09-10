@@ -12,3 +12,6 @@ class Agendamento:
 
     def exibir(self):
         print(f"ID: {self.id} | Cliente: {self.cliente} | Servico: {self.servico} | Barbeiro: {self.barbeiro} | Data: {self.data} | Horario: {self.horario} | Status: {self.status} | Preco: {self.preco}")
+
+    def converte_tupla(self):
+        return (self.cliente, self.telefone, self.servico, self.preco, self.barbeiro, self.data, self.horario, self.status)
