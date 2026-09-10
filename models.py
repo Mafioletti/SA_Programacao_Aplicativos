@@ -9,3 +9,6 @@ class Agendamento:
         self.data = data
         self.horario = horario
         self.status = status
+
+    def exibir(self):
+        print(f"ID: {self.id} | Cliente: {self.cliente} | Servico: {self.servico} | Barbeiro: {self.barbeiro} | Data: {self.data} | Horario: {self.horario} | Status: {self.status} | Preco: {self.preco}")
